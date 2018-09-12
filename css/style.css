@@ -43,6 +43,17 @@ figcaption {
   background-size: cover;
 }
 
+.light-fade {
+  background: #feccb1;
+  background: -moz-linear-gradient(top, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%);
+  background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
+  background: linear-gradient(to bottom, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 );
+}
+
+.medium-fade {
+  
+}
 
 /*/////// MEDIA ////////*/
 
